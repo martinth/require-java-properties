@@ -22,7 +22,7 @@ requirejs.config({
 });
 ```
 
-Now you're ready to `require` Java properties files as plain JavaScript objects:
+Now you're ready to `require` Java .properties files as plain JavaScript objects:
 ```js
 require('properties!some/folder/afile.properties', function(data){
     console.log(data); // => logs the transformed object
@@ -34,7 +34,7 @@ objects. So a properties key like:
 key=12
 key.with.dots=foobar 
 ```
-Will result in this JSON object:
+Will result in this JavaScript object:
 ```js
 {
     "key": 12,
