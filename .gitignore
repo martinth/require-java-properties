@@ -1,0 +1,6 @@
+*.sublime-project
+*.sublime-workspace
+*.idea
+node_modules/
+bower_components/
+test/main-built.js

@@ -1,0 +1,40 @@
+{
+  "name": "require-java-properties",
+  "version": "0.1.0",
+  "authors": [
+    "Martin Thurau <martin.thurau@gmail.com>"
+  ],
+  "description": "RequireJS loader for java properties files",
+  "main": "properties.js",
+  "keywords": [
+    "requirejs",
+    "loader",
+    "plugin",
+    "amd",
+    "java",
+    "properties"
+  ],
+  "bugs": {
+    "url": "https://github.com/martinth/require-java-properties"
+  },
+  "url": "https://github.com/martinth/require-java-properties",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/martinth/require-java-properties"
+  },
+  "dependencies": {
+    "requirejs-text": "~2.0.12",
+    "java.properties.js": "~1.0.0"
+  },
+  "devDependencies": {
+    "almond": "~0.3.0"
+  }
+}
