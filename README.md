@@ -6,7 +6,7 @@
 
 ## Install the plugin and its dependencies using bower
 ```sh
-$ bower install java.properties.js --save
+$ bower install require-java-properties --save
 ```
 If you prefer a manual install, make sure to satisfy the `java.properties.js` and `text` dependencies.
 
