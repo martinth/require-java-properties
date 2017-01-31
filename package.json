@@ -1,6 +1,6 @@
 {
   "name": "require-java-properties",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "RequireJS loader for java properties files",
   "url": "https://github.com/martinth/require-java-properties",
   "bugs": {
